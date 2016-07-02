@@ -8,19 +8,18 @@
 
   var cache = {};
   var initialized = false;
+  var defaultOptions = {
+    urls: []
+  };
 
-  var config = $.angryLoader = function(options) {
-    options = $.extend({}, config.defaultOptions, options);
+  $.angryLoader = function(options) {
+    options = $.extend({}, defaultOptions, options);
     if (initialized) {
       throw new Error('AngryLoader has already been initialized.');
     } else {
       initialize(options);
       initialized = true;
     }
-  };
-
-  config.defaultOptions = {
-    urls: []
   };
 
   // implementation
