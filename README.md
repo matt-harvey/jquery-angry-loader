@@ -58,8 +58,6 @@ jquery.angryLoader is probably best suited to sites with only a few pages that a
 too big. It is probably a bad idea to make your users GET a tonne of data which
 they'll probably never see.
 
-Oh yeah, you need jQuery. Include it somewhere before `jquery.angry-loader.js`.
-
 ### Installation
 
 ```
