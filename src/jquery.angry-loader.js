@@ -12,6 +12,19 @@
     urls: []
   };
 
+  // public interface
+
+  /**
+   * Initialize the plugin, telling it to pre-emptively GET and cache the
+   * <title> and <body> content of the page at each URL in the given list. It will do this
+   * after the document "ready" event has been triggered. Before AJAX-requesting pages other
+   * than the current one, jquery.angryLoader will arrange for the document to trigger
+   * the "angryLoader:load" event.
+   * @param {object} options
+   * @param {string[]} options.urls The root-relative URLs of the pages to be cached.
+   * @throws {Error} if this function has already been called, i.e. if jquery.angryLoader has
+   *   already been initialized.
+   */
   $.angryLoader = function(options) {
     options = $.extend({}, defaultOptions, options);
     if (initialized) {

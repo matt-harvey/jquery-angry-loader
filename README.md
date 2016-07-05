@@ -22,7 +22,7 @@ Tell jquery.angryLoader the list of URLs you want to be fast, like so:
 
 When someone first visits your site, once the initially visited page has been
 requested normally and the document is "ready", jquery.angryLoader caches the `<body>`
-content of the current page in memory (provided its URL is among those you've
+content of the current page in memory (provided its root-relative URL is among those you've
 listed), and then AJAX-requests HTML from each of the other URLs you've given
 it, and caches their `<body>` content as well. It also caches the content of
 each page's `<title>` tag. When the user clicks on any link that has one of
