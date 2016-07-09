@@ -60,8 +60,25 @@ they'll probably never see.
 
 ### Installation
 
+If you're using bower for your front-end dependency management, you can install
+jquery.angryLoader and add it to your project's bower.json as follows:
+
 ```
-  bower install jquery-angry-loader
+  bower install --save jquery-angry-loader
 ```
 
-You need jQuery. Include it before jquery.angry-loader.js.
+Ensure jquery.angry-loader.js or jquery.angry-loader.min.js is source somewhere
+in your project after jquery.js.
+
+Alternatively, you can download and unzip the project and then build it yourself by
+running the following commands within the project root:
+
+```
+  npm install
+  bower install
+  grunt
+```
+
+This will install the dependencies, run the tests and build two versions of
+jquery.angry-loader.js within dist/, one minified and one non-minified. Ensure
+one of these is sourced in your project somewhere after jquery.js.
