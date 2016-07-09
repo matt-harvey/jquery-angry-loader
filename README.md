@@ -79,6 +79,10 @@ running the following commands within the project root:
   grunt
 ```
 
+(If `grunt` fails, you might need to run `node node_modules/phantomjs-prebuilt/install.js`.
+This appears to be an issue with phantomjs-prebuilt - see
+https://github.com/Medium/phantomjs/issues/533.)
+
 This will install the dependencies, run the tests and build two versions of
 jquery.angry-loader.js within dist/, one minified and one non-minified. Ensure
 one of these is sourced in your project somewhere after jquery.js.
