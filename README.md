@@ -67,7 +67,7 @@ jquery.angryLoader and add it to your project's bower.json as follows:
   bower install --save jquery-angry-loader
 ```
 
-Ensure jquery.angry-loader.js or jquery.angry-loader.min.js is source somewhere
+Ensure jquery.angry-loader.js or jquery.angry-loader.min.js is sourced somewhere
 in your project after jquery.js.
 
 Alternatively, you can download and unzip the project and then build it yourself by
