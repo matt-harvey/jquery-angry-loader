@@ -1,6 +1,6 @@
 {
   "name": "jquery-angry-loader",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "jquery.angry-loader.js",
   "description": "crude, rude, fast internal site navigation",
   "keywords": [
@@ -13,21 +13,7 @@
   },
   "repository": "matt-harvey/jquery-angry-loader",
   "license": "MIT",
-  "scripts": {
-    "test": "grunt"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-qunit": "^1.0.0",
-    "grunt-contrib-uglify": "^0.7.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-lib-phantomjs": "^1.1.0",
-    "jshint-stylish": "^1.0.0",
-    "load-grunt-tasks": "^2.0.0",
-    "time-grunt": "^1.0.0"
+  "peerDependencies": {
+    "jquery": ">= 1.11"
   }
 }
