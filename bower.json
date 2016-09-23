@@ -2,9 +2,9 @@
   "name": "jquery-angry-loader",
   "description": "crude, rude, fast internal site navigation",
   "main": "./src/jquery.angry-loader.js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "dependencies": {
-    "jquery": ">= 1.11"
+    "jquery": ">= 1.12 < 3.0"
   },
   "license": "MIT"
 }

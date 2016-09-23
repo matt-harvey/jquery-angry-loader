@@ -1,6 +1,6 @@
 {
   "name": "jquery-angry-loader",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "jquery.angry-loader.js",
   "description": "crude, rude, fast internal site navigation",
   "keywords": [
@@ -14,6 +14,6 @@
   "repository": "matt-harvey/jquery-angry-loader",
   "license": "MIT",
   "peerDependencies": {
-    "jquery": ">= 1.11"
+    "jquery": ">= 1.12 < 3.0"
   }
 }
